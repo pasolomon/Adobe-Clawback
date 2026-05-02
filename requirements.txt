@@ -1,0 +1,2 @@
+# Sole runtime dependency. Everything else is Python stdlib.
+playwright>=1.45

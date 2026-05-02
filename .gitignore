@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# This project's runtime artifacts
+downloads/
+manifest.json
+manifest.corrupt.*.json
+
+# Adobe sign-in profile lives in $HOME by default, but ignore it here too
+# in case anyone moves it into the repo.
+.adobe_pdf_downloader/
+chrome_profile/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+.claude/
